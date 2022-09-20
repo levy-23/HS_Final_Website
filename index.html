@@ -1,145 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>My CSS Website</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Sigmar+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
-        <nav>
-            <ul class="topnav" id="dropdownClick">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
-                <li class="topnav-right"><a href="#signup">Sign Up</a></li>
-                <li class="topnav-right"><a href="#signin">Sign In</a></li>
-                <li class="dropdownIcon" onclick="dropdownMenu()"><a href="javascript:void(0)">&#9776;</a></li>
-            </ul>
-        </nav>
+<head>
+    <meta charset="UTF-8" />
+    <title>My CSS Website</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Sigmar+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        
-        <img src="welcome_test2.png" class="welcome" id='welcomImg'>
-        
-        <div class="container1">
-            <table cellspacing = "1">
-                <tr>
-                    
-                    <td><img src="minimalCoding.png" id="hiLight"></td>
-                    <td><h2 id="revealWork"><b>To View Levent's GreenFoot Projects , Click Icon.</b></h1></td>
-                    
-                </tr>
-            </table>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+            <li class="topnav-right"><a href="#signin">Sign In</a></li>
+            <li class="dropdownIcon" onclick="dropdownMenu()"><a href="javascript:void(0)">&#9776;</a></li>
+        </ul>
+    </nav>
 
+
+    <img src="welcome_test2.png" class="welcome" id='welcomImg'>
+
+    <div class="container1">
+        <table cellspacing="1">
+            <tr>
+
+                <td><img src="minimalCoding.png" id="hiLight"></td>
+                <td>
+                    <h2 id="revealWork"><b>To View Levent's GreenFoot Projects , Click Icon.</b></h1>
+                </td>
+
+            </tr>
+        </table>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div id="container2">
+        <h3 id="hidden">You Found Me!</h3>
+        <br>
+        <div class="row">
+            <div class="col-4">
+                <img src="VehicleSim.png" id="project" class="borderImg">
+            </div>
+            <div class="col-4">
+                <h1>Project Overview</h1>
+                <p>Intro to OOP (Object Oriented Programing. In This assignment, we used <u>Mr Cohen's</u> starter code
+                    and added our own creativity. Vehicles drive along the street while pedestrians try to cross.
+                    Vehicles have different functions. There are 2 counted events and one random event. Additionally,
+                    there is a mystery pedestrian. Play simulation to find out!</p>
+            </div>
+            <div class="col-4">
+                <h1>Click Below to Access GreenFoot Project</h1>
+                <a id="greenFLink" href="https://www.greenfoot.org/scenarios/27953">GreenFoot Scenerio</a>
+            </div>
         </div>
-        
+        <div class="row">
+            <div class="col-4">
+                <img src="OOPBugs.png" id="project1" class="borderImg">
+            </div>
+            <div class="col-4">
+                <h1>Project Overview</h1>
+                <p>Basic Intro to OOP (Object Oriented Programing. In This assignment, we explored <u>Mr Cohen's</u>
+                    starter code and added a tiny bit of our own creativity. Bugs roam the desert trying to find
+                    flowers. They eat to survive and repopulate. How long can they survive? Play simulation to find out!
+                </p>
+            </div>
+            <div class="col-4">
+                <h1>Click Below to Access GreenFoot Project</h1>
+                <a id="greenFLink1" href="https://www.greenfoot.org/scenarios/27954">GreenFoot Scenerio</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="ModularWidget.png" id="project2" class="borderImg">
+            </div>
+            <div class="col-4">
+                <h1>Project Overview</h1>
+                <p>Building a modular widge. Inpired my <u>Mr Cohen's</u> Stat Bar. Mainly used to track health, however
+                    can be used for other stats. Slick clean design.</p>
+            </div>
+            <div class="col-4">
+                <h1>Click Below to Access GreenFoot Project</h1>
+                <a id="greenFLink2" href="https://www.greenfoot.org/scenarios/27955">GreenFoot Scenerio</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="StackQueue.png" id="project3" class="borderImg">
+            </div>
+            <div class="col-4">
+                <h1>Project Overview</h1>
+                <p>Intro to Data Structure. Learning Stack and Queue. In This assignment, we explored <u>Mr Cohen's</u>
+                    starter code and filled out the blank methods for the Stack and for the Queue</p>
+            </div>
+            <div class="col-4">
+                <h1>Click Below to Access GreenFoot Project</h1>
+                <a id="greenFLink3" href="https://www.greenfoot.org/scenarios/27956">GreenFoot Scenerio</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="GroupSim.png" id="project4" class="borderImg">
+            </div>
+            <div class="col-4">
+                <h1>Project Overview</h1>
+                <p>Complex Group Simulation, by Fatima, Quinton, Vivian and myself. The Simulation takes place in a
+                    city, where arsonist and robbers cause havoc. Innocent houses are robbed or burned down. Emergency
+                    teams rush to help. Police deal with robbers and FigherFighters deal with arsonist. Play the
+                    simulation to see how it works!</p>
+            </div>
+            <div class="col-4">
+                <h1>Click Below to Access GreenFoot Project</h1>
+                <a id="greenFLink4" href="https://www.greenfoot.org/scenarios/27957">GreenFoot Scenerio</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="CosmicResistanceImage.png" id="project5" class="borderImg">
+            </div>
+            <div class="col-4">
+                <h1>Project Overview</h1>
+                <p>Complex Tower Defense Game, by Fatima, Quinton, Vivian and myself. In the cosmos you are tasked to
+                    defend your base against the enemies who come in waves. You can upgrade buy and sell defenses to
+                    stop all different types of enemies.</p>
+            </div>
+            <div class="col-4">
+                <h1>Click Below to Access GreenFoot Project</h1>
+                <a id="greenFLink5" href="https://www.greenfoot.org/scenarios/28246">GreenFoot Scenerio</a>
+            </div>
+        </div>
         <br>
         <br>
+        <h1><b>Up for a Challenge?</b></h1>
+        <h3>Find the hidden text. Search through the website and try to hover over the hidden text with your mouse. Once
+            you find it, click on it for secret message. Good luck!</h3>
 
-        <div id="container2">
-            <h3 id="hidden">You Found Me!</h3>
-            <br>
-            <div class="row">
-                <div class="col-4">
-                    <img src="VehicleSim.png"  id="project" class="borderImg">
-                </div>
-                <div class="col-4">
-                    <h1>Project Overview</h1>
-                    <p>Intro to OOP (Object Oriented Programing. In This assignment, we used <u>Mr Cohen's</u> starter code and added our own creativity. Vehicles drive along the street while pedestrians try to cross. Vehicles have different functions. There are 2 counted events and one random event. Additionally, there is a mystery pedestrian. Play simulation to find out!</p>
-                </div>
-                <div class="col-4">
-                    <h1>Click Below to Access GreenFoot Project</h1>
-                    <a id="greenFLink" href= "https://www.greenfoot.org/scenarios/27953">GreenFoot Scenerio</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    <img src="OOPBugs.png" id="project1" class="borderImg">
-                </div>
-                <div class="col-4">
-                    <h1>Project Overview</h1>
-                    <p>Basic Intro to OOP (Object Oriented Programing. In This assignment, we explored <u>Mr Cohen's</u> starter code and added a tiny bit of our own creativity. Bugs roam the desert trying to find flowers. They eat to survive and repopulate. How long can they survive? Play simulation to find out!</p>
-                </div>
-                <div class="col-4">
-                    <h1>Click Below to Access GreenFoot Project</h1>
-                    <a id="greenFLink1" href= "https://www.greenfoot.org/scenarios/27954">GreenFoot Scenerio</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    <img src="ModularWidget.png" id="project2" class="borderImg">
-                </div>
-                <div class="col-4">
-                    <h1>Project Overview</h1>
-                    <p>Building a modular widge. Inpired my <u>Mr Cohen's</u> Stat Bar. Mainly used to track health, however can be used for other stats. Slick clean design.</p>
-                </div>
-                <div class="col-4">
-                    <h1>Click Below to Access GreenFoot Project</h1>
-                    <a id="greenFLink2" href= "https://www.greenfoot.org/scenarios/27955">GreenFoot Scenerio</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    <img src="StackQueue.png" id="project3" class="borderImg">
-                </div>
-                <div class="col-4">
-                    <h1>Project Overview</h1>
-                    <p>Intro to Data Structure. Learning Stack and Queue. In This assignment, we explored <u>Mr Cohen's</u> starter code and filled out the blank methods for the Stack and for the Queue</p>
-                </div>
-                <div class="col-4">
-                    <h1>Click Below to Access GreenFoot Project</h1>
-                    <a id="greenFLink3" href= "https://www.greenfoot.org/scenarios/27956">GreenFoot Scenerio</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    <img src="GroupSim.png" id="project4" class="borderImg">
-                </div>
-                <div class="col-4">
-                    <h1>Project Overview</h1>
-                    <p>Complex Group Simulation, by Fatima, Quinton, Vivian and myself. The Simulation takes place in a city, where arsonist and robbers cause havoc. Innocent houses are robbed or burned down. Emergency teams rush to help. Police deal with robbers and FigherFighters deal with arsonist. Play the simulation to see how it works!</p>
-                </div>
-                <div class="col-4">
-                    <h1>Click Below to Access GreenFoot Project</h1>
-                    <a id="greenFLink4" href= "https://www.greenfoot.org/scenarios/27957">GreenFoot Scenerio</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    <img src="CosmicResistanceImage.png" id="project5" class="borderImg">
-                </div>
-                <div class="col-4">
-                    <h1>Project Overview</h1>
-                    <p>Complex Tower Defense Game, by Fatima, Quinton, Vivian and myself. In the cosmos you are tasked to defend your base against the enemies who come in waves. You can upgrade buy and sell defenses to stop all different types of enemies.</p>
-                </div>
-                <div class="col-4">
-                    <h1>Click Below to Access GreenFoot Project</h1>
-                    <a id="greenFLink5" href= "https://www.greenfoot.org/scenarios/28246">GreenFoot Scenerio</a>
-                </div>
-            </div>
-            <br>
-            <br>
-            <h1><b>Up for a Challenge?</b></h1>
-            <h3>Find the hidden text. Search through the website and try to hover over the hidden text with your mouse. Once you find it, click on it for secret message. Good luck!</h3>
+    </div>
 
-        </div>
-
-        <script>
-            function dropdownMenu() {
-                var x = document.getElementById("dropdownClick");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                    // Change topnav to topnav.responsive
-                } else {
-                    x.className = "topnav";
-                }
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                // Change topnav to topnav.responsive
+            } else {
+                x.className = "topnav";
             }
-        </script>
-        <script src="script.js"></script>
-    </body>
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+
 </html>
